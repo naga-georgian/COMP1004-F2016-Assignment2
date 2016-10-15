@@ -30,10 +30,24 @@ namespace COMP1004_F2016_Assignment2
         const decimal STANDARD_Decimal = 0.00m;
         const decimal PERALIZED_Decimal = 345.72m;
         const decimal CUSTOMIZED_DETAILING_Decimal = 599.99m;
+
+        private RadioButton selectedRadioButton = null;
         public autoCentreForm()
         {
             InitializeComponent();
 
+        }
+
+        /**
+       * This method will load the initial values into each textbox.
+       */
+        private void autoCentreForm_Load(object sender, EventArgs e)
+        {
+            // These are the defaults, that the form will begin with when it is initialized
+            standardRadioButton.Checked = true;
+            tradeInAllowanceTextBox.Text = "0.00";
+            carSalesPriceTextBox.Select();
+            carSalesPriceTextBox.Focus();
         }
     }
 }
