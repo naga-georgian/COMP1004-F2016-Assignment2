@@ -215,5 +215,14 @@ namespace COMP1004_F2016_Assignment2
                 carSalesPriceTextBox.Focus();
             }
         }
+
+        /**
+       * This method will activate when the exit button is clicked, and exit the program.
+       */
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // Exit the application
+            this.Close();
+        }
     }
 }
