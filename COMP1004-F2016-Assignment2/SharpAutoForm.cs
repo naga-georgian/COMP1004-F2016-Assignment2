@@ -282,5 +282,10 @@ namespace COMP1004_F2016_Assignment2
         {
             CalculateFunction();
         }
+
+        private void clearToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ClearFunction();
+        }
     }
 }
