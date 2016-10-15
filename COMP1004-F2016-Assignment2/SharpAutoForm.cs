@@ -224,5 +224,48 @@ namespace COMP1004_F2016_Assignment2
             // Exit the application
             this.Close();
         }
+
+        /**
+         * This method will take the radio button that was clicked, and assign the event to a new RadioButton.
+         */
+        private void radioButton_CheckedChanged(object sender, EventArgs e)
+        {
+            selectedRadioButton = (RadioButton)sender;
+        }
+
+        private void accessoriesFinishLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void carSalesPriceLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void salesTaxLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void totalLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tradeInAllowanceLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void subtotalLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void amountDueLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
