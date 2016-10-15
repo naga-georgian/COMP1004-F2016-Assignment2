@@ -268,26 +268,30 @@ namespace COMP1004_F2016_Assignment2
 
         }
 
+        // When user clicks on about menu item it shows the message about the form
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("This program calculates the amount due on a New or Used Vehicle");
         }
 
+        // When user clicks on exit menu item it exits the form
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-
+        // When user clicks on Calculate menu item it calculates the values
         private void calculateToolStripMenuItem_Click(object sender, EventArgs e)
         {
             CalculateFunction();
         }
 
+        // When user clicks on Clear menu item it clears the form
         private void clearToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ClearFunction();
         }
 
+        //        // Changes the font of the carSalesPriceTextBox and amountDueTextBox to Times
         private void fontToolStripMenuItem_Click(object sender, EventArgs e)
         {
             
@@ -296,6 +300,7 @@ namespace COMP1004_F2016_Assignment2
             
         }
 
+        // Changes the color of the carSalesPriceTextBox and amountDueTextBox to red
         private void colourToolStripMenuItem_Click(object sender, EventArgs e)
         {
             carSalesPriceTextBox.BackColor = Color.Red;
