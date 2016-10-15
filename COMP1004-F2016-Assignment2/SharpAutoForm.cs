@@ -49,5 +49,18 @@ namespace COMP1004_F2016_Assignment2
             carSalesPriceTextBox.Select();
             carSalesPriceTextBox.Focus();
         }
+
+        /**
+         * This method will activate when the calculate button is clicked, and total up all of the user inputted prices and features. 
+         * Once it has totalled everything up, it will output the values into the textboxes for each value.
+         */
+        private void calculateButton_Click(object sender, EventArgs e)
+        {
+            CalculateFunction();
+        }
+            private void CalculateFunction()
+        {
+
+        }
     }
 }
