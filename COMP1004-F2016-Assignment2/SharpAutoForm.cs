@@ -191,9 +191,29 @@ namespace COMP1004_F2016_Assignment2
         {
             ClearFunction();
         }
-            private void ClearFunction()
+        private void ClearFunction()
         {
+            DialogResult returnDialogResult;
 
+            returnDialogResult = MessageBox.Show("Clear the Auto Centre?", "Clear the Auto Centre?", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
+
+            // If the user clicks yes, return all fields to default state
+            if (returnDialogResult == DialogResult.Yes)
+            {
+                tradeInAllowanceTextBox.Text = "0.00";
+                standardRadioButton.Checked = true;
+                carSalesPriceTextBox.Clear();
+                accessoriesFinishTextBox.Clear();
+                subtotalTextBox.Clear();
+                salesTaxTextBox.Clear();
+                totalTextBox.Clear();
+                amountDueTextBox.Clear();
+                stereoSystemCheckBox.Checked = false;
+                leatherInteriorCheckBox.Checked = false;
+                computerNavigationCheckBox.Checked = false;
+                carSalesPriceTextBox.Select();
+                carSalesPriceTextBox.Focus();
+            }
         }
     }
 }
