@@ -277,5 +277,10 @@ namespace COMP1004_F2016_Assignment2
         {
             this.Close();
         }
+
+        private void calculateToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CalculateFunction();
+        }
     }
 }
