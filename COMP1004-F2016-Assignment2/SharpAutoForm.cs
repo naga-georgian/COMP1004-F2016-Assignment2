@@ -182,5 +182,18 @@ namespace COMP1004_F2016_Assignment2
                 carSalesPriceTextBox.Focus();
             }
         }
+
+        /**
+         * This method will activate when the clear button is clicked, and ask the user if they are sure. 
+         * If the user answers yes, it will restore the form back to its initial default state.
+         */
+        private void clearButton_Click(object sender, EventArgs e)
+        {
+            ClearFunction();
+        }
+            private void ClearFunction()
+        {
+
+        }
     }
 }
