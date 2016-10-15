@@ -287,5 +287,18 @@ namespace COMP1004_F2016_Assignment2
         {
             ClearFunction();
         }
+
+        private void fontToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+                amountDueTextBox.Font = new Font("Times", 10, FontStyle.Bold);
+                carSalesPriceTextBox.Font = new Font("Times", 10, FontStyle.Bold);
+            
+        }
+
+        private void colourToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
