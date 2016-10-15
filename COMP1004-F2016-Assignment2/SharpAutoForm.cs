@@ -272,5 +272,10 @@ namespace COMP1004_F2016_Assignment2
         {
             MessageBox.Show("This program calculates the amount due on a New or Used Vehicle");
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
