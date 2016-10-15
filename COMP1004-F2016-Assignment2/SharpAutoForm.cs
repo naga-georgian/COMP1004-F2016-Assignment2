@@ -298,6 +298,8 @@ namespace COMP1004_F2016_Assignment2
 
         private void colourToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            carSalesPriceTextBox.BackColor = Color.Red;
+            amountDueTextBox.BackColor = Color.Red;
 
         }
     }
