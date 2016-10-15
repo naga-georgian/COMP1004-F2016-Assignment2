@@ -222,7 +222,7 @@ namespace COMP1004_F2016_Assignment2
         private void exitButton_Click(object sender, EventArgs e)
         {
             // Exit the application
-            this.Close();
+            Application.Exit();
         }
 
         /**
@@ -275,7 +275,7 @@ namespace COMP1004_F2016_Assignment2
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void calculateToolStripMenuItem_Click(object sender, EventArgs e)
